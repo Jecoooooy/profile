@@ -1,0 +1,12 @@
+#get-in-touch{
+    /* height: 100vh;   */
+    padding-bottom: 10vh ;
+    background: linear-gradient(180deg, #B0BEC5,#ECEFF1);
+}
+
+.map-container {
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    padding:10px;
+  }

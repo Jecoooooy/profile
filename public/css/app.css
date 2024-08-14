@@ -1,0 +1,54 @@
+@import './home.css';
+@import './transition.css';
+@import './about.css';
+@import './experience.css';
+@import './portfolio.css';
+@import './getintouch.css';
+
+.v-application__wrap{
+    background-color: #212121!important;
+}
+main{
+    transition: 0.5s!important;
+    /* padding-top:0px!important; */
+}
+main *{
+    transition: 0.5s;
+}
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url('../../public/fonts/AlteHaasGroteskRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+h1{
+    margin-bottom: 5vh;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 5px 5px grey;
+    /* border-radius: 10px; */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #607D8B;
+    cursor: pointer;
+    /* border-radius: 10px; */
+}
+
+
+footer{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

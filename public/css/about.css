@@ -1,0 +1,9 @@
+#about{
+    margin-top: -30vh;
+    background-color: #212121;
+    min-height: 50vh;
+    transition: 0.5s;
+}
+.v-progress-linear__content{
+    justify-content: start!important;
+}
