@@ -1,7 +1,9 @@
 const { defineConfig } = require('@vue/cli-service')
 module.exports = defineConfig({
-   publicPath: '/vue-deploy/',
-  transpileDependencies: true
+  publicPath: process.env.NODE_ENV === 'production'
+    ? '/<profile>/' // Replace with your repository name
+    : '/'
+  // transpileDependencies: true
 })
 
 // import { defineConfig} from 'vite'
