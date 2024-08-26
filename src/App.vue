@@ -502,7 +502,8 @@
         welcome.value = true
     }, 400);
     }
-
+ 
+ 
 
     const windowWidth = ref(window.innerWidth) 
     // const windowHeight= ref(window.innerHeight) 
